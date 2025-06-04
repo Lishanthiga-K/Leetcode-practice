@@ -4,8 +4,8 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             for(int j=i+1;j<nums.length;j++){
                 ifx(nums[i] + nums[j] == target){
-                    arr[0] = nums[i];
-                    arr[1] = nums[j];
+                    arr[0] = i;
+                    arr[1] = j;
                 }
             }
         }
